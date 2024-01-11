@@ -10,5 +10,9 @@ This is a simple Python script that uses the PyPDF2 library to merge multiple PD
 
 This Photo Editor Automation program, utilizes the Pillow library to apply a series of image enhancements and effects to a collection of images. The script is designed to process images located in the 'imgs' folder, and the edited versions are saved in the 'editedImgs' folder. The edits include sharpening, rotation, contrast adjustment, color inversion, horizontal and vertical flipping, and additional effects. The script streamlines the editing process, allowing users to easily apply a consistent set of modifications to a batch of images, enhancing their visual appeal.
 
+### Youtube Video Downloader
+
+This program is powered by the Pytube library in Python and simplifies the process of downloading YouTube videos. By providing the video link as a command-line argument, the script fetches essential details such as title and views and then downloads the video in the highest resolution available. The downloaded video is saved to the specified directory, allowing the user to download YouTube videos for completely free!
+
 
 

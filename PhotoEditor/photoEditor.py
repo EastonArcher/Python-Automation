@@ -19,9 +19,8 @@ for filename in os.listdir(path):
     # Color inversion effect
     edit = ImageEnhance.Color(edit).enhance(1)
 
-    # Additional effects
-    edit = edit.transpose(Image.FLIP_LEFT_RIGHT)  # Flip horizontally
-    edit = edit.transpose(Image.FLIP_TOP_BOTTOM)  # Flip vertically
+    # Color inversion effect and additional effects
+    edit = ImageEnhance.Color(edit).enhance(1).transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM)
 
     # Save the edited image
     clean_name = os.path.splitext(filename)[0]

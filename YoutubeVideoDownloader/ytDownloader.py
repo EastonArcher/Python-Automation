@@ -11,6 +11,7 @@ yt = YouTube(link)
 print("Title:", yt.title)
 print("Views:", yt.views)
 
+# Getting the highest resolution stream available for the video
 yd = yt.streams.get_highest_resolution()
 
 yd.download('/Users/ea02a/Downloads/Youtube Download Links')

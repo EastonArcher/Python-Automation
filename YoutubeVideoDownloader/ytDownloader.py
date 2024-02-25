@@ -2,11 +2,12 @@
 from pytube import YouTube
 from sys import argv
 
-# Fetching the YouTube video link from the command-line arguments
+# Fetching the video link from the command-line arguments
 link = argv[1]
-# Creating a YouTube object instance with the provided link
+# Creating an object instance with the provided link
 yt = YouTube(link)
 
+# Print the title and views of the video
 print("Title:", yt.title)
 print("Views:", yt.views)
 

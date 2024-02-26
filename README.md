@@ -4,7 +4,7 @@
 
 ### ✉️ PDF Merger
 
-* This Python script uses the PyPDF2 library to merge multiple PDF files together. By placing the script in the same directory as the target PDF files, it automatically identifies and combines all PDFs into a single file named "Combined.pdf". This approach increases user efficiency and simplifies the process of merging PDF documents.
+* This Python script uses the PyPDF2 library to merge multiple PDF files together. By placing the script in the same directory as the target PDF files, it automatically identifies and combines all PDFs into a single file named "Combined.pdf". This approach increases user efficiency and simplifies the process of merging multiple PDF documents.
 
 ### 📷 Photo Editor
 

@@ -8,7 +8,7 @@
 
 ### 📷 Photo Editor
 
-* This Photo Editor Automation program, utilizes the Pillow library to apply a series of enhancements effects to a collection of images. The script is designed to process images located in the 'imgs' folder, and the edited versions are saved in the 'editedImgs' folder. The edits include sharpening, rotation, contrast adjustment, color inversion, horizontal and vertical flipping, and additional effects. The script streamlines the editing process, allowing users to easily apply a consistent set of modifications to a batch of images, enhancing their visual appeal.
+* This Photo Editor Automation program, utilizes the Pillow library to apply a series of enhancements effects to a collection of images. The script is designed to process images located in the 'imgs' folder, and the edited versions are saved in the 'editedImgs' folder. The script streamlines the editing process, allowing users to easily apply a consistent set of modifications to a batch of images.
 
 ### 📹 Youtube Video Downloader
 

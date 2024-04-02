@@ -5,7 +5,7 @@ import os
 # Initialize a PdfFileMerger object from PyPDF2 library
 merger = PyPDF2.PdfFileMerger()
 
-# Iterate through all files in the current dir
+# Iterate through all files in the current directory
 for file in os.listdir(os.curdir):
     # Checking if the file ends with ".pdf"
     if file.endswith(".pdf"):

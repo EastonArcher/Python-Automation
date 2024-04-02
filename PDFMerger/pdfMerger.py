@@ -5,7 +5,7 @@ import os
 # Initialize a PdfFileMerger object from PyPDF2 library
 merger = PyPDF2.PdfFileMerger()
 
-# Iterate through all files in the current directory
+# Iterate through all files in the current dir
 for file in os.listdir(os.curdir):
     # Checking if the file ends with ".pdf"
     if file.endswith(".pdf"):
@@ -14,3 +14,4 @@ for file in os.listdir(os.curdir):
         
 # Write the merged PDF to a file named "Combined.pdf"
 merger.write("Combined.pdf")
+

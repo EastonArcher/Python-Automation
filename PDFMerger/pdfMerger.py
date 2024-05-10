@@ -12,6 +12,6 @@ for file in os.listdir(os.curdir):
         # If the file is a PDF, append it to the merger object
         merger.append(file)
         
-# Write the merged PDF to a file named "Combined.pdf"
-merger.write("Combined.pdf")
+# Write the merged PDF to a file named "combined.pdf"
+merger.write("combined.pdf")
 

@@ -1,4 +1,5 @@
 # Python Automation Ideas
+
 ## 🚀 Making life easier by automating everyday tasks
 
 ### ✉️ PDF Merger
